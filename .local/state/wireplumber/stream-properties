@@ -1,0 +1,3 @@
+[stream-properties]
+Output/Audio:media.role:Game={"channelMap":["FL", "FR"], "mute":false, "volume":1.000000, "channelVolumes":[1.000000, 1.000000]}
+Output/Audio:media.role:Music={"mute":false, "volume":1.000000, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"]}

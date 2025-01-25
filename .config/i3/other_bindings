@@ -1,0 +1,20 @@
+#This is the config file with USER keybindings that's supposed to be included in i3config file
+#You can change it however you want
+#------------------------------------------
+
+#layout
+exec_always --no-startup-id "setxkbmap -layout us,ru -option grp:toggle" #I found it reasonable to put exec not binding config here
+
+#open file manager 
+
+#change wallpaper
+bindsym $mod+w exec feh --randomize --bg-scale ~/onepiece/*
+
+#change color scheme and wallpaper (theme)
+bindsym $mod+t exec ~/.config/i3/scripts/wal-scale.sh
+
+#lock
+bindsym Mod4+l exec betterlockscreen -l --show-layout
+
+#screenshow with flameshot
+bindsym Print exec flameshot gui
