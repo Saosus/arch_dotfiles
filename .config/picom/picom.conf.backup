@@ -1,0 +1,173 @@
+#################################
+#          Shadows              #
+#################################
+shadow = true;
+shadow-radius = 18;
+shadow-opacity = 0.75;
+shadow-offset-x = -12;
+shadow-offset-y = -12;
+shadow-color = "#000000"
+shadow-exclude = [
+  "class_g = 'i3-frame'",
+  "class_g = 'Polybar'",
+  "name = 'Notification'",
+  "window_type = 'dock'",
+  "window_type = 'desktop'"
+];
+
+#################################
+#           Blurring            #
+#################################
+blur: {
+  method = "dual_kawase";
+  strength = 3;
+  background = true;
+  background-frame = false;
+  background-fixed = false;
+}
+blur-background-exclude = [
+  "window_type = 'dock'",
+  "window_type = 'desktop'",
+  "class_g = 'rofi'",
+];
+
+#################################
+#       Animations              #
+#################################
+animations = true;
+animation-window-mass = 0.5;
+animation-dampening = 25;
+animation-clamping = true;
+animation-for-open-window = "zoom";
+animation-for-unmap-window = "squeeze";
+animation-for-menu-window = "zoom";
+
+animation-stiffness = 300;
+animation-delta = 10;
+
+#################################
+#          Fading               #
+#################################
+fading = true;
+fade-in-step = 0.03;
+fade-out-step = 0.03;
+fade-delta = 5;
+
+fade-exclude = [
+  "class_g = 'Rofi'",
+  "class_g = 'Alacritty'"
+];
+
+#################################
+#         Corners               #
+#################################
+corner-radius = 12;
+round-borders = 1;
+rounded-corners-exclude = [
+  "class_g = 'Polybar'",
+  "class_g = 'i3'",
+  "window_type = 'dropdown_menu'",
+  "window_type = 'popup_menu'"
+];
+
+#################################
+#       Advanced Options        #
+#################################
+backend = "glx";
+vsync = true;
+mark-wmwin-focused = true;
+mark-ovredir-focused = true;
+detect-rounded-corners = true;
+detect-client-opacity = true;
+unredir-if-possible = false;
+detect-transient = true;
+inactive-dim = 0.05;
+focus-exclude = [ "class_g = 'Crow'" ];
+
+# Оптимизации для Intel/AMD
+glx-no-stencil = true;
+glx-no-rebind-pixmap = true;
+use-damage = true;
+
+#################################
+#          Window Types         #
+#################################
+wintypes:
+{
+  tooltip = { fade = true; shadow = false; };
+  dropdown_menu = { opacity = 0.9; blur-background = true; };
+  popup_menu = { opacity = 0.9; blur-background = true; };
+  utility = { shadow = false; };
+};
+# Backend
+backend = "glx";
+
+# Enable vsync
+vsync = true;
+
+# General
+corner-radius = 12;
+rounded-corners-exclude = [ "window_type = 'dock'", "class_g = 'Polybar'" ];
+
+# Shadow
+shadow = true;
+shadow-radius = 12;
+shadow-opacity = 0.4;
+shadow-offset-x = -10;
+shadow-offset-y = -10;
+shadow-ignore-shaped = false;
+shadow-exclude = [
+  "name = 'Notification'",
+  "class_g = 'Conky'",
+  "class_g = 'i3-frame'",
+];
+
+# Transparency
+inactive-opacity = 0.85;
+active-opacity = 1.0;
+frame-opacity = 0.9;
+inactive-opacity-override = false;
+blur-background = true;
+blur-background-frame = true;
+blur-kern = "7x7box";
+
+# Fade
+fading = true;
+fade-delta = 8;
+fade-in-step = 0.03;
+fade-out-step = 0.03;
+fade-exclude = [ ];
+
+# Animations (using animation fork if available)
+animations = true;
+animation-stiffness = 200;
+animation-dampening = 25;
+animation-window-mass = 1;
+animation-clamping = true;
+animation-for-open-window = "zoom";
+animation-for-unmap-window = "zoom";
+animation-for-transient-window = "slide-down";
+
+# Opacity rules (optional)
+opacity-rule = [
+  "90:class_g = 'Alacritty'",
+  "90:class_g = 'Rofi'",
+  "95:class_g = 'Thunar'",
+  "80:class_g = 'mpv'"
+];
+
+# Exclude elements from picom
+focus-exclude = [
+  "class_g = 'polybar'",
+  "class_g = 'Rofi'"
+];
+
+# XSync (smoother transitions, esp. with Intel)
+use-damage = false;
+
+# Avoid flicker
+unredir-if-possible = false;
+
+# Log level
+log-level = "warn";
+

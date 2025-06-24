@@ -5,8 +5,6 @@
 #layout
 exec_always --no-startup-id "setxkbmap -layout us,ru -option grp:toggle" #I found it reasonable to put exec not binding config here
 
-#open file manager 
-
 #change wallpaper
 bindsym $mod+w exec feh --randomize --bg-scale ~/onepiece/*
 
@@ -16,5 +14,16 @@ bindsym $mod+t exec ~/.config/i3/scripts/wal-scale.sh
 #lock
 bindsym Mod4+l exec betterlockscreen -l --show-layout
 
-#screenshow with flameshot
+#screenshot with flameshot
 bindsym Print exec flameshot gui
+
+#ranger
+bindsym $mod+p exec thunar
+
+#floating mode with double click
+bindsym --whole-window button2 floating toggle
+
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+

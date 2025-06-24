@@ -2,18 +2,17 @@
 import = ['~/.cache/wal/colors-alacritty.toml']
 
 [font]
-normal = {family = "ComicShannsMono Nerd Font Propo", style = "Regular"}
+normal = {family = "ComicShannsMono Nerd Font ", style = "Regular"}
 size = 10
 
 [window]
 padding = {x = 9, y = 9}
-opacity = 0.8
 
 [terminal]
 shell = { program = "/usr/bin/zsh", args = ["-l"] }
 
 [cursor]
-style = {shape = "Underline", blinking = "Always"}
+style = {shape = "Beam", blinking = "Always"}
 blink_interval = 500
 blink_timeout = 0
 

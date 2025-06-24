@@ -20,4 +20,8 @@ call plug#begin()
 	Plug 'SirVer/ultisnips'
 	Plug 'honza/vim-snippets'
 	Plug 'dylanaraps/wal.vim'
+	Plug 'davidhalter/jedi-vim'
+	Plug 'tpope/vim-fugitive'
+	Plug 'jmcantrell/vim-virtualenv'
+	Plug 'vim-python/python-syntax'
 call plug#end()

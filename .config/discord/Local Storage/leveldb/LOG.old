@@ -1,0 +1,6 @@
+2025/05/23-00:15:42.867 4623 Reusing MANIFEST /home/cppyli/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/05/23-00:15:42.874 4623 Recovering log #59
+2025/05/23-00:15:42.877 4623 Reusing old log /home/cppyli/.config/discord/Local Storage/leveldb/000059.log 
+2025/05/23-00:19:11.567 460d Level-0 table #63: started
+2025/05/23-00:19:11.581 460d Level-0 table #63: 1023521 bytes OK
+2025/05/23-00:19:11.582 460d Delete type=0 #59

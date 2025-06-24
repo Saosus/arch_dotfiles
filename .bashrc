@@ -38,3 +38,5 @@ export PATH="${PATH}:${HOME}/python-env/bin"
 export PATH=$PATH:/home/cppyli/.spicetify
 
 export PATH="/home/cppyli/.local/bin:$PATH"
+
+export PATH="/home/cppyli/pgadmin/bin"

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1738952799541550-1</unique-id>
+	<command>exo-open --working-directory %f --launch alacritty</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+	<text-files/>
+</action>
+<action>
+	<icon>vim</icon>
+	<name>Open with Vim</name>
+	<submenu></submenu>
+	<unique-id>1739124208394889-1</unique-id>
+	<command>exec alacritty &amp; vim %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*.txt</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+</actions>

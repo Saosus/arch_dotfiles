@@ -4,7 +4,7 @@ set $mod Mod1
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- betterlockscreen -l --show-layout
+exec --no-startup-id xss-lock --transfer-sleep-lock --betterlockscreen -l --show-layout
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -13,7 +13,13 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
-#-----CUSTOM: including addtional configs
+#-----CUSTOM: autostart 
+exec --no-startup-id blueman-applet
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id ~/.config/i3/scripts/wal-scale.sh
+exec --no-startup-id picom
+
+#-----CUSTOM: including additional configs
 include ~/.config/i3/keybindings
 include ~/.config/i3/other_bindings
 
@@ -29,22 +35,16 @@ client.urgent           $bg     $bg     $fg  $bg       $bg
 client.placeholder      $bg     $bg     $fg  $bg       $bg
 client.background       $bg
 
-#-----CUSTOM: autostart 
-exec --no-startup-id nm-applet
-exec --no-startup-id blueman-applet
-exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec --no-startup-id ~/.config/i3/scripts/wal-scale.sh
-exec --no-startup-id picom
 
-#CUSTOM: gapses and border
-gaps inner 20
-gaps outer 20
+#-----CUSTOM: gapses and border
+gaps inner 16
+gaps outer 16
 default_border pixel
  
+#-----CUSTOM: window settings
 for_window [tiling] border pixel 5
 for_window [floating] border pixel 6
 
 for_window [class="Sxiv"] floating enable
 for_window [class="mpv"] floating enable
 for_window [class="pavucontrol"] floating enable
-for_window [class="Telegram"] floating enable

@@ -1,3 +1,4 @@
+
 configuration {
 	modes: "drun,run,ssh";
 	font: "ComicShannsMono Nerd Font Propo 12";
@@ -150,8 +151,5 @@ configuration {
   }
 }
 
-//@theme "/usr/share/rofi/themes/blue.rasi"
-
-//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
-@theme "/dev/null"
+@theme "~/.config/rofi/onepiece.rasi"
 @import  "~/.cache/wal/colors-rofi-dark.rasi"

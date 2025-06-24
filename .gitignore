@@ -1,0 +1,15 @@
+#ignoring useless applications
+/TelegramDesktop/
+/torbrowser/
+/qBittorrent/
+/spotify-launcher/
+/BraveSoftware/
+/mime/
+/.ssh/
+/python-env/
+/.git/
+/recently-used.xbel
+/sddm/
+/spotify/
+/spicetify/
+/.local/
