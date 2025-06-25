@@ -27055,3 +27055,30 @@ Possible causes: the network is offline, Origin is not allowed by Access-Control
 [2025-05-23 00:42:04.927] [warn]  Window state not initialized window-1
 [2025-05-23 00:42:04.927] [warn]  Window state not initialized window-1
 [2025-05-23 00:42:04.928] [warn]  Window state not initialized window-1
+[2025-06-25 00:15:23.326] [info]  DiscordSplash.signalReady
+[2025-06-25 00:15:23.377] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":1,"total":6}
+[2025-06-25 00:15:23.378] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":1,"total":6}
+[2025-06-25 00:15:23.379] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":2,"total":6}
+[2025-06-25 00:15:23.380] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":2,"total":6}
+[2025-06-25 00:15:23.380] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":3,"total":6}
+[2025-06-25 00:15:23.380] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":3,"total":6}
+[2025-06-25 00:15:23.381] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":4,"total":6}
+[2025-06-25 00:15:23.382] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":4,"total":6}
+[2025-06-25 00:15:23.382] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":5,"total":6}
+[2025-06-25 00:15:23.383] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":5,"total":6}
+[2025-06-25 00:15:23.384] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":6,"total":6}
+[2025-06-25 00:15:23.385] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":6,"total":6}
+[2025-06-25 00:15:23.385] [info]  DiscordSplash.onStateUpdate: {"status":"checking-for-updates","current":6,"total":6}
+[2025-06-25 00:15:23.385] [info]  Splash.onStateUpdate: {"status":"checking-for-updates","current":6,"total":6}
+[2025-06-25 00:15:24.046] [info]  DiscordSplash.onStateUpdate: {"status":"update-manually","current":6,"total":6,"newVersion":"0.0.99"}
+[2025-06-25 00:15:24.047] [info]  Splash.onStateUpdate: {"status":"update-manually","current":6,"total":6,"newVersion":"0.0.99"}
+[2025-06-25 00:15:24.326] [info]  Splash.updateCountdownSeconds: undefined
+[2025-06-25 00:15:25.326] [info]  Splash.updateCountdownSeconds: undefined
+[2025-06-25 00:15:26.326] [info]  Splash.updateCountdownSeconds: undefined
+[2025-06-25 00:15:27.326] [info]  Splash.updateCountdownSeconds: undefined
+[2025-06-25 00:15:28.326] [info]  Splash.updateCountdownSeconds: undefined
+[2025-06-25 00:15:29.326] [info]  Splash.updateCountdownSeconds: undefined
+[2025-06-25 00:15:30.326] [info]  Splash.updateCountdownSeconds: undefined
+[2025-06-25 00:15:31.325] [info]  Splash.updateCountdownSeconds: undefined
+[2025-06-25 00:15:32.326] [info]  Splash.updateCountdownSeconds: undefined
+[2025-06-25 00:15:32.490] [error] Uncaught TypeError: Object(...) is not a function
