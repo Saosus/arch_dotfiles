@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
+    <icon>terminal</icon>
+    <name>Update</name>
+    <unique-id>1573903056061608-1</unique-id>
+    <command>/home/cppyli/Applications/appimaged-904-x86_64.AppImage %f</command>
+    <description>Update the AppImage</description>
+    <patterns>*.AppImage;*.appimage</patterns>
+    <other-files/>
+    <directories/>
+</action>
+<action>
 	<icon>utilities-terminal</icon>
 	<name>Open Terminal Here</name>
 	<submenu></submenu>

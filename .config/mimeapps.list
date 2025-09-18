@@ -3,23 +3,14 @@ text/plain=vim.desktop;Alacritty.desktop;
 application/x-tar=torbrowser.desktop;
 text/x-csrc=Alacritty.desktop;
 application/x-zerosize=vim.desktop;
-application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.pwmt.zathura.desktop;org.pwmt.zathura-pdf-poppler.desktop;brave-browser.desktop;
-application/vnd.openxmlformats-officedocument.presentationml.presentation=brave-browser.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.pwmt.zathura.desktop;org.pwmt.zathura-pdf-poppler.desktop;
 application/x-shellscript=Alacritty.desktop;
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=org.pwmt.zathura-pdf-poppler.desktop;firefox.desktop;
 
 [Default Applications]
 image/jpeg=sxiv.desktop
 image/png=sxiv.desktop
-text/html=brave-browser.desktop
-x-scheme-handler/http=brave-browser.desktop
-x-scheme-handler/https=brave-browser.desktop
-x-scheme-handler/about=brave-browser.desktop
-x-scheme-handler/unknown=brave-browser.desktop
 application/pdf=org.pwmt.zathura.desktop
 text/plain=Alacritty.desktop
 application/x-zerosize=vim.desktop
-application/vnd.openxmlformats-officedocument.wordprocessingml.document=open-in-google.desktop
-application/vnd.openxmlformats-officedocument.presentationml.presentation=open-in-google.desktop
-application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=open-in-google.desktop
 x-scheme-handler/postman=Postman.desktop

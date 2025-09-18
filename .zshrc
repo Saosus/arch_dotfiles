@@ -48,16 +48,17 @@ alias grep='grep --color=auto'
 alias la='ls -lah --color=auto'
 alias rbt='reboot'
 alias pwf='poweroff'
-alias update='sudo pacman -Syu'
-alias qet='pacman -Qet'
+alias update='sudo pacman -Syyu'
+alias qqen='pacman -Qqen'
 alias open='xdg-open'
+alias fsf='fastfetch'
 
 #export
 export PATH="${PATH}:${HOME}/python-env/bin"
 export PATH=$PATH:/home/cppyli/.spicetify
 export PATH="/home/cppyli/.local/bin:$PATH"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
-export PATH="${PATH}:${HOME}/pgadmin4/bin"
+export PATH="${PATH}:${HOME}/bin/pgadmin4"
 export PATH="${PATH}:${HOME}/Tor\ Browser/"
 export TERM=xterm-256color
 

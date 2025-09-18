@@ -11,6 +11,10 @@ bindsym F7 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $re
 bindsym F6 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+#brightness
+bindsym F4 exec --no-startup-id brightnessctl s 10%-
+bindsym F5 exec --no-startup-id brightnessctl s 10%+
+
 #kill focused window
 bindsym $mod+q kill
 

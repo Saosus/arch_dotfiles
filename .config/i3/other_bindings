@@ -9,7 +9,10 @@ exec_always --no-startup-id "setxkbmap -layout us,ru -option grp:toggle" #I foun
 bindsym $mod+w exec feh --randomize --bg-scale ~/onepiece/*
 
 #change color scheme and wallpaper (theme)
-bindsym $mod+t exec ~/.config/i3/scripts/wal-scale.sh
+bindsym $mod+t exec ~/.local/bin/wal-scale.sh
+
+#redshift activate
+bindsym F1 exec --no-startup-id redshift-gtk
 
 #lock
 bindsym Mod4+l exec betterlockscreen -l --show-layout
@@ -18,7 +21,10 @@ bindsym Mod4+l exec betterlockscreen -l --show-layout
 bindsym Print exec flameshot gui
 
 #ranger
-bindsym $mod+p exec thunar
+bindsym $mod+p exec alacritty -e ranger
+
+#fastfetch
+bindsym $mod+i exec alacritty -e btop 
 
 #floating mode with double click
 bindsym --whole-window button2 floating toggle

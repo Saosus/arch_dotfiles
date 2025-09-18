@@ -14,10 +14,15 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 #-----CUSTOM: autostart 
+exec --no-startup-id picom
+exec --no-startup-id snixembed --fork
+exec --no-startup-id iwgtk -i
+exec --no-startup-id clight-gui
+exec --no-startup-id volctl 
 exec --no-startup-id blueman-applet
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id ~/.config/i3/scripts/wal-scale.sh
-exec --no-startup-id picom
+exec --no-startup-id ~/.local/bin/wal-scale.sh
+
 
 #-----CUSTOM: including additional configs
 include ~/.config/i3/keybindings
@@ -48,3 +53,4 @@ for_window [floating] border pixel 6
 for_window [class="Sxiv"] floating enable
 for_window [class="mpv"] floating enable
 for_window [class="pavucontrol"] floating enable
+for_window [class="iwgtk"] floating enable

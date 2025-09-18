@@ -1,5 +1,6 @@
-2025/06/24-23:43:59.447 f1f4 Reusing MANIFEST /home/cppyli/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
-2025/06/24-23:43:59.461 f1f4 Recovering log #7
-2025/06/24-23:43:59.462 f1f4 Level-0 table #10: started
-2025/06/24-23:43:59.464 f1f4 Level-0 table #10: 8386 bytes OK
-2025/06/24-23:43:59.465 f1f4 Delete type=0 #7
+2025/09/18-10:51:21.886 1013 Reusing MANIFEST /home/cppyli/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2025/09/18-10:51:21.901 1013 Recovering log #118
+2025/09/18-10:51:21.901 1013 Reusing old log /home/cppyli/.config/obsidian/Local Storage/leveldb/000118.log 
+2025/09/18-11:35:22.278 fb9 Level-0 table #123: started
+2025/09/18-11:35:22.283 fb9 Level-0 table #123: 7676 bytes OK
+2025/09/18-11:35:22.285 fb9 Delete type=0 #118

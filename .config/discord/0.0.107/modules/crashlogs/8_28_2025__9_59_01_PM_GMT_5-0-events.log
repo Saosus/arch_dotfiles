@@ -1,0 +1,9 @@
+8/28/2025, 9:59:01 PM GMT+5 0: 
+
+----------------------------------------------
+8/28/2025, 9:59:01 PM GMT+5 1: Discord starting: {"releaseChannel":"stable","version":"0.0.107"}, modulepath: /home/cppyli/.config/discord/0.0.107/modules
+8/28/2025, 9:59:01 PM GMT+5 2: ✅ webContents.created web1 ""
+8/28/2025, 9:59:01 PM GMT+5 3: ✅ window.created win1 "discord"
+8/28/2025, 9:59:01 PM GMT+5 4: ✅ webContents.did-finish-load web1
+8/28/2025, 9:59:03 PM GMT+5 5: window.close win1
+8/28/2025, 9:59:03 PM GMT+5 6: webContents.destroyed web1

@@ -1,5 +1,5 @@
 * {
-    font: "FiraCode Nerd Font 10";
+    font: "ComicShannsMono Nerd Font Mono 12";
     background: rgba(20, 20, 20, 0.75);
     background-alt: rgba(40, 40, 40, 0.9);
     foreground: #f5c542;

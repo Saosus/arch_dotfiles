@@ -1,13 +1,21 @@
-2025/06/22-16:44:48.032 5934 Reusing MANIFEST /home/cppyli/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2025/06/22-16:44:48.033 5934 Recovering log #63
-2025/06/22-16:44:48.035 5934 Reusing old log /home/cppyli/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000063.log 
-2025/06/22-16:44:48.035 5934 Delete type=2 #62
-2025/06/22-21:48:32.485 5935 Level-0 table #68: started
-2025/06/22-21:48:32.495 5935 Level-0 table #68: 1115837 bytes OK
-2025/06/22-21:48:32.496 5935 Delete type=0 #63
-2025/06/22-22:16:45.430 5935 Compacting 1@1 + 1@2 files
-2025/06/22-22:16:45.446 5935 Generated table #69@1: 1078 keys, 146953 bytes
-2025/06/22-22:16:45.446 5935 Compacted 1@1 + 1@2 files => 146953 bytes
-2025/06/22-22:16:45.447 5935 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/06/22-22:16:45.447 5935 Delete type=2 #68
-2025/06/22-22:16:45.447 5935 Delete type=2 #65
+2025/09/17-20:38:27.409 83dd Reusing MANIFEST /home/cppyli/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/17-20:38:27.409 83dd Recovering log #146
+2025/09/17-20:38:27.419 83dd Reusing old log /home/cppyli/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000146.log 
+2025/09/17-21:52:55.927 83dd Level-0 table #151: started
+2025/09/17-21:52:55.939 83dd Level-0 table #151: 1047757 bytes OK
+2025/09/17-21:52:55.942 83dd Delete type=0 #146
+2025/09/17-21:55:19.403 83dd Compacting 1@1 + 1@2 files
+2025/09/17-21:55:19.423 83dd Generated table #152@1: 3257 keys, 1314212 bytes
+2025/09/17-21:55:19.424 83dd Compacted 1@1 + 1@2 files => 1314212 bytes
+2025/09/17-21:55:19.425 83dd compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/17-21:55:19.425 83dd Delete type=2 #151
+2025/09/17-21:55:19.426 83dd Delete type=2 #148
+2025/09/17-22:40:54.533 83dd Level-0 table #154: started
+2025/09/17-22:40:54.545 83dd Level-0 table #154: 1123945 bytes OK
+2025/09/17-22:40:54.548 83dd Delete type=0 #150
+2025/09/17-22:57:19.218 83dd Compacting 1@1 + 1@2 files
+2025/09/17-22:57:19.239 83dd Generated table #155@1: 3289 keys, 1366969 bytes
+2025/09/17-22:57:19.239 83dd Compacted 1@1 + 1@2 files => 1366969 bytes
+2025/09/17-22:57:19.240 83dd compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/17-22:57:19.241 83dd Delete type=2 #152
+2025/09/17-22:57:19.241 83dd Delete type=2 #154
