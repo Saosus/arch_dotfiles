@@ -13,3 +13,5 @@
 /spotify/
 /spicetify/
 /.local/
+/.gitignore
+/hypr/
