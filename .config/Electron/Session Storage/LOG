@@ -1,2 +1,3 @@
-2025/05/01-01:24:17.472 c20c Creating DB /home/cppyli/.config/Electron/Session Storage since it was missing.
-2025/05/01-01:24:17.478 c20c Reusing MANIFEST /home/cppyli/.config/Electron/Session Storage/MANIFEST-000001
+2026/01/04-15:06:22.263 3711 Reusing MANIFEST /home/cppyli/.config/Electron/Session Storage/MANIFEST-000001
+2026/01/04-15:06:22.264 3711 Recovering log #3
+2026/01/04-15:06:22.264 3711 Reusing old log /home/cppyli/.config/Electron/Session Storage/000003.log 

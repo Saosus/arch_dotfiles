@@ -1,2 +1,3 @@
-2025/05/01-01:23:36.936 c20c Creating DB /home/cppyli/.config/Electron/Local Storage/leveldb since it was missing.
-2025/05/01-01:23:36.947 c20c Reusing MANIFEST /home/cppyli/.config/Electron/Local Storage/leveldb/MANIFEST-000001
+2026/01/04-15:06:13.983 3711 Reusing MANIFEST /home/cppyli/.config/Electron/Local Storage/leveldb/MANIFEST-000001
+2026/01/04-15:06:13.996 3711 Recovering log #3
+2026/01/04-15:06:13.996 3711 Reusing old log /home/cppyli/.config/Electron/Local Storage/leveldb/000003.log 

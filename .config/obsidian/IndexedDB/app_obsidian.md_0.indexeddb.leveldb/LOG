@@ -1,3 +1,9 @@
-2025/09/18-10:51:22.440 1015 Reusing MANIFEST /home/cppyli/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2025/09/18-10:51:22.441 1015 Recovering log #153
-2025/09/18-10:51:22.446 1015 Reusing old log /home/cppyli/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000153.log 
+2026/01/11-19:18:38.447 479e Reusing MANIFEST /home/cppyli/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/11-19:18:38.447 479e Recovering log #165
+2026/01/11-19:18:38.450 479e Reusing old log /home/cppyli/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000165.log 
+2026/01/11-19:18:39.067 479f Compacting 1@1 + 1@2 files
+2026/01/11-19:18:39.077 479f Generated table #168@1: 2440 keys, 692217 bytes
+2026/01/11-19:18:39.077 479f Compacted 1@1 + 1@2 files => 692217 bytes
+2026/01/11-19:18:39.078 479f compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/11-19:18:39.078 479f Delete type=2 #163
+2026/01/11-19:18:39.078 479f Delete type=2 #166
